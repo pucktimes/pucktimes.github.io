@@ -1,2 +1,2 @@
-# bbensch09.github.io
-This is the repository for my GitHub phase 0 website. 
+# pucktimes.github.io
+This repository exists to host the website for The Puck Times, a curated newsbrief covering the San Jose Sharks.
