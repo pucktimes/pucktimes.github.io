@@ -99,24 +99,32 @@ header h1 {
   /*top: 500px*/
   }
 #blank-space{
-  height:300px;
+  height:400px;
 }
 
 footer {
-   position:fixed;
+   position:relative;
    background-color:#00788a;
    text-align: center;
    left:0px;
    bottom:0px;
-   height:60px;
+   height:80px;
    width:100%;
+ }
+ footer p {
+   color:white ;
+   font-size: 12px;
 }
-
+footer ul {
+  padding-top: 16px;
+}
 footer ul li {
     text-align: center;
     display: inline;
     font-size: 18px;
     padding-right: 48px;
+    padding-top: 10px;
+    margin: auto;
     color: #00788a;
   }
 
@@ -125,6 +133,7 @@ footer img {
 }
 footer a {
   color: #f28f20;
+  font-size: 20px;
 }
 footer a:hover {
   /*background-color: teal;*/
