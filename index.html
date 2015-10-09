@@ -2,51 +2,58 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans|Oswald' rel='stylesheet' type='text/css'>
     <title> The Puck Times </title>
   </head>
 
   <body>
     <header>
-      <img src="imgs/puck-times.png" alt="logo" />
-      <h1> The Puck Times </h1>
-
-      <nav>
+      <section>
+        <img src="imgs/puck-times.png" alt="The Puck Times" />
+<!--         <h1> The Puck Times </h1>
+        </section>
+        <section>
+          <h1> Concise. Curated. <br> Go Sharks! </h1> -->
+        </section>
+      <nav class="navbar">
         <ul>
-            <li> <a href="index.html" > Subscribe </a> </li>
+            <li> <a href="index.html" > Home </a> </li>
+            <li> <a href="http://unbouncepages.com/pucktimes-signup/" > Subscribe</a> </li>
             <li> <a href="issues/index.html" > Recent issues </a> </li>
             <li> <a href="issues/about-us.html" > About Us </a> </li>
         </ul>
       </nav>
     </header>
-    <section>
-      <div class="main hero">
-          <h1> Concise. Curated. Go Sharks! </h1>
+
+    <section class="main-body">
+        <div>
             <p> The Puck Times is game-day newsbrief for San Jose Sharks fans. We know life is busy and time is scarce, so we scan the news and synthesize it for you, highlighting everything you need to know before the puck drops. </p>
-      </div>
-      <div class="button">
-        <form action="projects/index.html">
-              <button type="submit" name="stay in touche"> Subscribe Today </button>
-            </form>
+        <form action="http://unbouncepages.com/pucktimes-signup/" >
+              <input type="submit" class="button" id="subscribe" value="Subscribe Today">
+        </form>
       </div>
     </section>
-    <section>
-      <div>
+    <section class="widgets">
+      <div id="today-issue">
+          <h1> Today's Issue </h1>
+          <p> 10/10/15 - Sharks vs. Anaheim Ducks </p>
+          <form action="issues/today.html" id="cta1">
+              <input type="submit" class="button" value="Read More">
+          </form>
+      </div>
+      <div id="about-us">
         <h1> About Us </h1>
           <p> Andrew is the lead writer for The Puck Times...Brian is the lead developer...
           <!-- He has a degree in Broadcast Journalism from SFSU and has covered the Sharks professionally since 2010. Brian hails from Santa Clara, CA and has lived in San Francisco for the last 6 years... -->
         </p>
-            <form action="issues/about-us.html">
-              <button type="submit" name="read more"> Read More </button>
-            </form>
-      </div>
-      <div>
-          <h1> Today's Issue </h1>
-          <p> 10/10/15 - Sharks vs. Anaheim Ducks </p>
-            <form action="issues/git.html">
-              <button type="submit" name="read more"> Read More </button>
-            </form>
+            <form action="issues/about-us.html" id="cta2">
+              <input type="submit" class="button" value="Read More">
+          </form>
       </div>
     </section>
+    <section id="blank-space">
+    </section>
+
     <footer>
       <ul>
         <li> <a href="https://www.linkedin.com/in/brianbensch" > Connect on LinkedIn </a>
