@@ -67,6 +67,16 @@ header h1 {
   position: relative;
   width:800px;
 }
+h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 36px;
+}
+h5 {
+  margin: auto;
+  text-align: center;
+  font-size: 20px;
+}
 table {
   border: 1px solid black;
   border-collapse: collapse;
@@ -93,6 +103,14 @@ table thead {
   border: 2px solid #666;
   text-decoration:none;
 }
+form {
+  margin: auto;
+  text-align: center;
+  padding:10px;
+  color: white;
+  font-size: 20px;
+  text-decoration:none;
+}
 .button:hover {
   padding:10px;
   background-color: #000000;
@@ -110,26 +128,50 @@ table thead {
 #today-issue {
   float:left;
   height: 200px;
+  width: 400px;
 }
 #about-us{
   float:right;
   height: 200px;
+  width: 400px;
 }
 .thumbnail-photo {
   float:right;
   height:200px;
 }
-.widgets {
+.widgets-td {
   position: relative;
-  /*top: 500px*/
+  border: 0px white;
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  vertical-align: top
   }
+table.widgets {
+  margin: auto;
+  border: 0px white;
+  width: 90%;
+  text-align: left;
+  vertical-align: bottom;
+  padding: 5px;
+}
+
 #blank-space{
-  height:400px;
+  height:200px;
 }
 #blank-space-small{
   height:50px;
 }
-
+.brian-bio {
+  float:right;
+  height: 400px;
+  padding: 20px;
+}
+.andy-bio {
+  float:left;
+  height: 400px;
+  padding: 20px;
+}
 footer {
    position:relative;
    background-color:#00788a;
