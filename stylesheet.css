@@ -8,7 +8,7 @@
   }
   p {
     font-family: Arial, sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
   header {
     width:90%;
@@ -17,7 +17,7 @@
   }
   header img{
     width:90%;
-    height:100px;
+    height:10%;
     margin: auto;
   }
   header h1 {
@@ -27,7 +27,7 @@
   }
   .navbar {
     background-color: #036d80;
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding-top: 0px;
     padding-bottom: 5px;
@@ -37,10 +37,10 @@
   }
   .navbar li {
       display: inline;
-      font-size: 20px;
+      font-size: 1em;
       text-align: center;
-      padding-right: 35px;
-      padding-left: 10px;
+      padding-right: 1em;
+      padding-left: 0.5em;
   }
   .navbar a {
     color: white;
@@ -61,32 +61,32 @@
     text-align: center;
     position: relative;
     margin: auto;
-    padding-left: 350px;
-    padding-right: 350px;
+    padding-left: 20%;
+    padding-right: 20%;
   }
   .main-body p {
     font-family: Arial, sans-serif;
-    font-size:24px;
+    font-size:2em;
   }
   .newsbrief {
     margin: auto;
     position: relative;
-    width:800px;
+    width:90%;
   }
   h1 {
     margin: auto;
     text-align: center;
-    font-size: 36px;
+    font-size: 2em;
   }
   h5 {
     margin: auto;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5em;
   }
   table {
     border: 1px solid black;
     border-collapse: collapse;
-    width: 400px;
+    width: 70%;
     text-align: left;
     vertical-align: bottom;
     padding: 5px;
@@ -96,7 +96,7 @@
     padding: 5px;
   }
   table thead {
-    font-size: 20px;
+    font-size: 1.4em;
     color:blue;
     padding: 10px;
   }
@@ -105,7 +105,7 @@
     padding:10px;
     background-color: #036d80;
     color: white;
-    font-size: 20px;
+    font-size: 1.6em;
     border: 2px solid #666;
     text-decoration:none;
   }
@@ -114,7 +114,7 @@
     text-align: center;
     padding:10px;
     color: white;
-    font-size: 20px;
+    font-size: 1.6em;
     text-decoration:none;
   }
   .button:hover {
@@ -125,7 +125,7 @@
     text-decoration:none;
   }
   #subscribe {
-    font-size: 40px;
+    font-size: 3em;
     margin: auto
   }
   .cta-center {
@@ -134,16 +134,15 @@
   #today-issue {
     float:left;
     height: 200px;
-    width: 400px;
+    width: 40%;
   }
   #about-us{
     float:right;
-    height: 200px;
-    width: 400px;
+    width: 40%;
   }
   .thumbnail-photo {
     float:right;
-    height:200px;
+    height:40%;
   }
   .widgets-td {
     position: relative;
