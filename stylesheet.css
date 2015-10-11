@@ -105,16 +105,17 @@
     padding:10px;
     background-color: #036d80;
     color: white;
-    font-size: 1.6em;
+    font-size: 1.2em;
     border: 2px solid #666;
     text-decoration:none;
+    width:70%;
   }
   form {
     margin: auto;
     text-align: center;
     padding:10px;
     color: white;
-    font-size: 1.6em;
+    font-size: 1.2em;
     text-decoration:none;
   }
   .button:hover {
@@ -125,7 +126,7 @@
     text-decoration:none;
   }
   #subscribe {
-    font-size: 3em;
+    font-size: 1.8em;
     margin: auto
   }
   .cta-center {
