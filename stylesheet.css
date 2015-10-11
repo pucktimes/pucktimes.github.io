@@ -1,27 +1,30 @@
 h1 {
-  font-family: 'Droid Sans', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 36px;
 }
 p {
-  font-family: 'Droid Sans', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 18px;
 }
 header {
-  width:100%;
-  background-color: #f28f20;
+  width:90%;
+  background-color: #036d80;
+  margin: auto;
 }
 header img{
-  width:100%;
-  height:140px;
+  width:90%;
+  height:100px;
+  margin: auto;
 }
 header h1 {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 50px;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
   text-align: center;
 }
 .navbar {
-  background-color: #f28f20;
-  width: 100%;
+  background-color: #036d80;
+  width: 90%;
+  margin: auto;
   padding-top: 0px;
   padding-bottom: 5px;
 }
@@ -30,26 +33,25 @@ header h1 {
 }
 .navbar li {
     display: inline;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     padding-right: 35px;
     padding-left: 10px;
 }
 .navbar a {
-  color: #00788a;
-  text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-}
-.navbar a:hover {
   color: white;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: Arial, sans-serif;
+}
+.navbar a:hover {
+  color: #f28f20;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
 }
 .main-hero {
   text-align: center;
   vertical-align: middle;
   position: relative;
-  /*height: 150px;*/
 }
 .main-body {
   text-align: center;
@@ -59,7 +61,7 @@ header h1 {
   padding-right: 350px;
 }
 .main-body p {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   font-size:24px;
 }
 .newsbrief {
@@ -97,7 +99,7 @@ table thead {
 
 .button {
   padding:10px;
-  background-color: #00788a;
+  background-color: #036d80;
   color: white;
   font-size: 20px;
   border: 2px solid #666;
@@ -174,7 +176,7 @@ table.widgets {
 }
 footer {
    position:relative;
-   background-color:#00788a;
+   background-color:#036d80;
    text-align: center;
    left:0px;
    bottom:0px;
@@ -195,7 +197,7 @@ footer ul li {
     padding-right: 48px;
     padding-top: 10px;
     margin: auto;
-    color: #00788a;
+    color: #036d80;
   }
 
 footer img {
