@@ -1,213 +1,217 @@
-h1 {
-  font-family: Arial, sans-serif;
-  font-size: 36px;
-}
-p {
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-}
-header {
-  width:90%;
-  background-color: #036d80;
-  margin: auto;
-}
-header img{
-  width:90%;
-  height:100px;
-  margin: auto;
-}
-header h1 {
-  font-family: Arial, sans-serif;
-  font-size: 40px;
-  text-align: center;
-}
-.navbar {
-  background-color: #036d80;
-  width: 90%;
-  margin: auto;
-  padding-top: 0px;
-  padding-bottom: 5px;
-}
-.navbar ul {
-  text-align: center;
-}
-.navbar li {
-    display: inline;
-    font-size: 20px;
-    text-align: center;
-    padding-right: 35px;
-    padding-left: 10px;
-}
-.navbar a {
-  color: white;
-  text-transform: uppercase;
-  font-family: Arial, sans-serif;
-}
-.navbar a:hover {
-  color: #f28f20;
-  text-transform: uppercase;
-  font-family: Arial, sans-serif;
-}
-.main-hero {
-  text-align: center;
-  vertical-align: middle;
-  position: relative;
-}
-.main-body {
-  text-align: center;
-  position: relative;
-  margin: auto;
-  padding-left: 350px;
-  padding-right: 350px;
-}
-.main-body p {
-  font-family: Arial, sans-serif;
-  font-size:24px;
-}
-.newsbrief {
-  margin: auto;
-  position: relative;
-  width:800px;
-}
-h1 {
-  margin: auto;
-  text-align: center;
-  font-size: 36px;
-}
-h5 {
-  margin: auto;
-  text-align: center;
-  font-size: 20px;
-}
-table {
-  border: 1px solid black;
-  border-collapse: collapse;
-  width: 400px;
-  text-align: left;
-  vertical-align: bottom;
-  padding: 5px;
-}
-table td {
-  border:1px solid black;
-  padding: 5px;
-}
-table thead {
-  font-size: 20px;
-  color:blue;
-  padding: 10px;
-}
-
-.button {
-  padding:10px;
-  background-color: #036d80;
-  color: white;
-  font-size: 20px;
-  border: 2px solid #666;
-  text-decoration:none;
-}
-form {
-  margin: auto;
-  text-align: center;
-  padding:10px;
-  color: white;
-  font-size: 20px;
-  text-decoration:none;
-}
-.button:hover {
-  padding:10px;
-  background-color: #000000;
-  color: white;
-  border: 2px solid #666;
-  text-decoration:none;
-}
-#subscribe {
-  font-size: 40px;
-  margin: auto
-}
-.cta-center {
-  float:center;
-}
-#today-issue {
-  float:left;
-  height: 200px;
-  width: 400px;
-}
-#about-us{
-  float:right;
-  height: 200px;
-  width: 400px;
-}
-.thumbnail-photo {
-  float:right;
-  height:200px;
-}
-.widgets-td {
-  position: relative;
-  border: 0px white;
-  margin: auto;
-  width: 50%;
-  padding: 20px;
-  vertical-align: top
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2em;
   }
-table.widgets {
-  margin: auto;
-  border: 0px white;
-  width: 90%;
-  text-align: left;
-  vertical-align: bottom;
-  padding: 5px;
-}
-
-#blank-space{
-  height:200px;
-}
-#blank-space-small{
-  height:50px;
-}
-.brian-bio {
-  float:right;
-  height: 400px;
-  padding: 20px;
-}
-.andy-bio {
-  float:left;
-  height: 400px;
-  padding: 20px;
-}
-footer {
-   position:relative;
-   background-color:#036d80;
-   text-align: center;
-   left:0px;
-   bottom:0px;
-   height:80px;
-   width:100%;
- }
- footer p {
-   color:white ;
-   font-size: 12px;
-}
-footer ul {
-  padding-top: 16px;
-}
-footer ul li {
-    text-align: center;
-    display: inline;
-    font-size: 18px;
-    padding-right: 48px;
-    padding-top: 10px;
+  h2 {
+    font-family: Arial, sans-serif;
+    font-size: 1.6em;
+  }
+  p {
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+  }
+  header {
+    width:90%;
+    background-color: #036d80;
     margin: auto;
-    color: #036d80;
+  }
+  header img{
+    width:90%;
+    height:100px;
+    margin: auto;
+  }
+  header h1 {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+  .navbar {
+    background-color: #036d80;
+    width: 90%;
+    margin: auto;
+    padding-top: 0px;
+    padding-bottom: 5px;
+  }
+  .navbar ul {
+    text-align: center;
+  }
+  .navbar li {
+      display: inline;
+      font-size: 20px;
+      text-align: center;
+      padding-right: 35px;
+      padding-left: 10px;
+  }
+  .navbar a {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+  }
+  .navbar a:hover {
+    color: #f28f20;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+  }
+  .main-hero {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+  }
+  .main-body {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding-left: 350px;
+    padding-right: 350px;
+  }
+  .main-body p {
+    font-family: Arial, sans-serif;
+    font-size:24px;
+  }
+  .newsbrief {
+    margin: auto;
+    position: relative;
+    width:800px;
+  }
+  h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+  }
+  h5 {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+  }
+  table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 400px;
+    text-align: left;
+    vertical-align: bottom;
+    padding: 5px;
+  }
+  table td {
+    border:1px solid black;
+    padding: 5px;
+  }
+  table thead {
+    font-size: 20px;
+    color:blue;
+    padding: 10px;
   }
 
-footer img {
-  height:18px;
-}
-footer a {
-  color: #f28f20;
-  font-size: 20px;
-}
-footer a:hover {
-  /*background-color: teal;*/
-  color: white;
-}
+  .button {
+    padding:10px;
+    background-color: #036d80;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #666;
+    text-decoration:none;
+  }
+  form {
+    margin: auto;
+    text-align: center;
+    padding:10px;
+    color: white;
+    font-size: 20px;
+    text-decoration:none;
+  }
+  .button:hover {
+    padding:10px;
+    background-color: #000000;
+    color: white;
+    border: 2px solid #666;
+    text-decoration:none;
+  }
+  #subscribe {
+    font-size: 40px;
+    margin: auto
+  }
+  .cta-center {
+    float:center;
+  }
+  #today-issue {
+    float:left;
+    height: 200px;
+    width: 400px;
+  }
+  #about-us{
+    float:right;
+    height: 200px;
+    width: 400px;
+  }
+  .thumbnail-photo {
+    float:right;
+    height:200px;
+  }
+  .widgets-td {
+    position: relative;
+    border: 0px white;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    vertical-align: top
+    }
+  table.widgets {
+    margin: auto;
+    border: 0px white;
+    width: 90%;
+    text-align: left;
+    vertical-align: bottom;
+    padding: 5px;
+  }
+
+  #blank-space{
+    height:200px;
+  }
+  #blank-space-small{
+    height:50px;
+  }
+  .brian-bio {
+    float:right;
+    height: 400px;
+    padding: 20px;
+  }
+  .andy-bio {
+    float:left;
+    height: 400px;
+    padding: 20px;
+  }
+  footer {
+     position:relative;
+     background-color:#036d80;
+     text-align: center;
+     left:0px;
+     bottom:0px;
+     height:80px;
+     width:100%;
+   }
+   footer p {
+     color:white ;
+     font-size: 12px;
+  }
+  footer ul {
+    padding-top: 16px;
+  }
+  footer ul li {
+      text-align: center;
+      display: inline;
+      font-size: 18px;
+      padding-right: 48px;
+      padding-top: 10px;
+      margin: auto;
+      color: #036d80;
+    }
+
+  footer img {
+    height:18px;
+  }
+  footer a {
+    color: #f28f20;
+    font-size: 20px;
+  }
+  footer a:hover {
+    /*background-color: teal;*/
+    color: white;
+  }
