@@ -27,7 +27,7 @@
     max-width: 800px;
     margin: auto;
     padding-top: 0px;
-    padding-bottom: 5px;
+    padding-bottom: .5em;
   }
   .navbar ul {
     text-align: center;
@@ -36,7 +36,7 @@
       display: inline;
       font-size: 1em;
       text-align: center;
-      padding-right: 1em;
+      padding-right: .5em;
   }
   .navbar a {
     color: white;
