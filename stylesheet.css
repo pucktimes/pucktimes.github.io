@@ -232,6 +232,7 @@
 
   footer {
      position:relative;
+     clear:both;
      background-color:#036d80;
      text-align: center;
      left:0px;
