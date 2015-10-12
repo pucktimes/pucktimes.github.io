@@ -173,9 +173,10 @@
     text-decoration:none;
   }
   #subscribe {
-    font-size: 180%;
+    font-size: 1.4em;
     margin: auto;
-    width: 70%;
+    width: 100%;
+    max-width: 400px;
   }
   .cta-center {
     float:center;
