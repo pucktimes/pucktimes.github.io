@@ -75,6 +75,11 @@
     width: 800px;
     max-width:80%;
   }
+  iframe {
+    width:30em;
+    height:20em;
+    max-width:100%;
+  }
   .recent-list article {
     margin: auto;
     width:100%;
