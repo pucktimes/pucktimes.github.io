@@ -8,7 +8,7 @@
   }
   p {
     font-family: Arial, sans-serif;
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
   header {
     width:100%;
@@ -67,13 +67,18 @@
   }
   .main-body p {
     font-family: Arial, sans-serif;
-    font-size:1.3em;
+    font-size:1.4em;
   }
   .newsbrief {
     margin: auto;
     position: relative;
     width: 800px;
     max-width:80%;
+  }
+  iframe {
+    width:30em;
+    height:20em;
+    max-width:100%;
   }
   .recent-list article {
     margin: auto;
@@ -168,9 +173,10 @@
     text-decoration:none;
   }
   #subscribe {
-    font-size: 180%;
+    font-size: 1.4em;
     margin: auto;
-    width: 70%;
+    width: 100%;
+    max-width: 400px;
   }
   .cta-center {
     float:center;
