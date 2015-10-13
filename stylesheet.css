@@ -283,3 +283,13 @@ footer {
   footer a:hover {
     color: white;
   }
+  .btn-social {
+    text-align: center;
+  }
+  .btn-social img {
+    width: 200px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+  }
